@@ -1,0 +1,39 @@
+.sidebar {
+    background-color: transparent;
+}
+
+.media {
+    width: 47px;
+}
+
+.userCss {
+    margin-top: 15px;
+    color: black;
+    background-color: white;   
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-color: white;
+}
+
+.userCss:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.logOutCss {
+    margin-top: 15px;
+    color: black;
+    background-color: white;   
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-color: white;
+}
+
+.logOutCss:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}

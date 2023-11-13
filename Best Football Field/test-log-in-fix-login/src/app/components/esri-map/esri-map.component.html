@@ -1,0 +1,29 @@
+
+<!-- Here's the DIV that we inject the map into -->
+<div fxLayout="row">
+  <div fxFlex="20%" fxLayout="column">
+  </div>
+  <div fxFlex="80%">
+    <div #mapViewNode></div>
+  </div>
+</div>
+
+<div class="sidebarSticky">
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <button class="userCss" routerLink="/dashboard" (click)="goToDashboard()">
+        <a class="nav-link active">
+          <i class="fas fa-user"></i>Go Back To User Profile
+        </a>
+      </button>
+    </li>
+    
+    <li class="nav-item">
+      <button class="logOutCss">
+        <a class="nav-link" (click)="authService.SignOut()">
+          <i class="fas fa-sign-out-alt"></i>Sign Out
+        </a>
+      </button>
+    </li>
+  </ul>
+</div>

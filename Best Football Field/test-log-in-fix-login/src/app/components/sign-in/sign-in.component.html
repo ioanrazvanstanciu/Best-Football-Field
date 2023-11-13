@@ -1,0 +1,38 @@
+<div class="displayTable">
+    <div class="displayTableCell">
+      <div class="authBlock">
+        <h3>Sign In</h3>
+        <div class="formGroup">
+          <input style="margin-top: 3px;" type="text" class="formControl" placeholder=" Username" #userName required>
+        </div>
+        <div class="formGroup">
+          <input type="password" class="formControl" placeholder=" Password" #userPassword required>
+        </div>
+        <!-- Calling SignIn Api from AuthService -->
+        <div class="formGroup">
+          <button class="butonLogin">
+            <input type="button" class="btn btnPrimary" value="Sign In" (click)="authService.SignIn(userName.value, userPassword.value)">
+          </button>
+        </div>
+        <div class="formGroup">
+          <h5 style="margin-top: 15px;">Or</h5>
+        </div>
+        <!-- Calling GoogleAuth Api from AuthService -->
+        <div class="formGroup">
+          <button type="button" class="butonGoogle" (click)="authService.GoogleAuth()">
+            <i class="fab fa-google-plus-g"></i>
+            Sign In With Google
+          </button>
+        </div>
+        <div class="forgotPassword">
+          <button class="uitare">
+            <a routerLink="/forgot-password" (click)="goToForgotPassword()">Forgot Password</a>
+          </button>
+        </div>
+      </div>
+      <div class="redirectToLogin">
+        <span>Don't have an account?<button class="signUpbuton"><span class="redirect" routerLink="/sign-up" (click)="goToSignUp()"> Sign Up Here</span></button></span>
+      </div>
+    </div>
+  </div>
+  

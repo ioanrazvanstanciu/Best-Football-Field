@@ -1,0 +1,80 @@
+.displayTable {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.butonLogin {
+    margin-top: 15px;
+    color: black;
+    background-color: white;   
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-color: white;
+}
+
+.butonLogin:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.formControl {    
+    color: black;
+    background-color: white;  
+    border-radius: 20px; 
+    border-color: white;
+}
+
+.butonGoogle {
+    margin-top: 15px;
+    color: red;
+    background-color: white;   
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-color: white;
+}
+
+.butonGoogle:hover {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+.uitare {
+    margin-top: 55px;
+    color: black;
+    background-color: white;   
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-color: white;
+}
+
+.uitare:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.redirectToLogin {
+    color: white;
+}
+
+.signUpbuton {
+    margin-left: 10px;
+    color: black;
+    background-color: white;   
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-color: white;
+}
+
+.signUpbuton:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}

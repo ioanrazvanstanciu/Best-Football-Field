@@ -1,0 +1,68 @@
+.titlu {
+    padding-top: 22px;
+    padding-left: 27px;    
+}
+
+.formControl {    
+    color: black;
+    background-color: white;  
+    border-radius: 20px; 
+    border-color: white;
+}
+
+.formGroup {
+    padding-left: 27px;   
+}
+
+.butonSignUp {
+    margin-top: 15px;
+    color: black;
+    background-color: white;   
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-color: white;
+}
+
+.butonSignUp:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.butonGoogle {
+    margin-top: 15px;
+    color: red;
+    background-color: white;   
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-color: white;
+}
+
+.butonGoogle:hover {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+.redirectToLogin {
+    padding-top: 15px;
+    padding-left: 27px; 
+}
+
+.buttonUitareSignIn {
+    margin-left: 10px;
+    color: black;
+    background-color: white;   
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-color: white;
+}
+
+.buttonUitareSignIn:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
